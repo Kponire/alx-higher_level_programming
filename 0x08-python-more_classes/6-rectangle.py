@@ -4,11 +4,10 @@
 
 
 class Rectangle:
+    """ functions and data"""
 
     number_of_instances = 0
 
-
-    """ functions and data"""
     def __init__(self, width=0, height=0):
         """instatiation"""
         self.width = width
