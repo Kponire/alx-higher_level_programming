@@ -62,6 +62,7 @@ class Rectangle:
                 else:
                     string += self.__width * '#' + '\n'
             return string
+
     def __repr__(self):
         """Returns the string"""
         return ("Rectangle({:d}, {:d})".format(self.__width, self.__height))
