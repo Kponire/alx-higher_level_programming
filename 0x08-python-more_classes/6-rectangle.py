@@ -5,6 +5,9 @@
 
 class Rectangle:
 
+    number_of_instances = 0
+
+
     """ functions and data"""
     def __init__(self, width=0, height=0):
         """instatiation"""
